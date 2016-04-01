@@ -1,0 +1,6 @@
+﻿  lab gudkov 3.1.cpp
+c:\users\sergey\documents\visual studio 2015\projects\lab gudkov 3.1\lab gudkov 3.1\lab gudkov 3.1.cpp(7): warning C4603: WIN32_LEAN_AND_MEAN: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+  c:\users\sergey\documents\visual studio 2015\projects\lab gudkov 3.1\lab gudkov 3.1\lab gudkov 3.1.cpp(7): note: Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+  c:\users\sergey\documents\visual studio 2015\projects\lab gudkov 3.1\lab gudkov 3.1\lab gudkov 3.1.cpp(8): note: использование предварительно скомпилированного заголовка
+c:\users\sergey\documents\visual studio 2015\projects\lab gudkov 3.1\lab gudkov 3.1\lab gudkov 3.1.cpp(103): warning C4101: l: неиспользованная локальная переменная
+  lab gudkov 3.1.vcxproj -> C:\Users\Sergey\documents\visual studio 2015\Projects\lab gudkov 3.1\Debug\lab gudkov 3.1.exe
