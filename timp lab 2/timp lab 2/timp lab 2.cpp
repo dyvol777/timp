@@ -10,7 +10,7 @@ int main()
 	string buf;
 	ifstream file("text.txt");
 	getline(file, buf, '\0');
-	cout << buf<<endl<<"nasha rabota"<<endl;
+	//cout << buf<<endl<<"nasha rabota"<<endl;
 	file.close();
 	int size = buf.length();
 	int i = 0;
@@ -20,14 +20,21 @@ int main()
 		if ((buf[i] == '/') && (buf[i+1] == '*') && (buf[i+2] == '*'))
 		{
 			i += 3;
-			while (buf[i] != 'f')
+			while (buf[i] != '\\')
 			{
 				i++;
 			}
-			//i++;
+
+			while ((buf[i] != ' ') && (buf[i] != '\n'))
+			{
+				i++;
+			}
+			i++;
+
 			while ((buf[i] != '*') || (buf[i + 1] != '/'))
 			{
-				cout<<buf[i];
+				if (buf[i] == '\n') cout << ' ';
+				else cout<<buf[i];
 				i++;
 			}
 			cout << endl;
